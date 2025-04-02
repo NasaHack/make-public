@@ -1,0 +1,41 @@
+{
+  "name": "make-public",
+  "version": "1.0.0",
+  "description": "A simple tool to bypass CORS restrictions.",
+  "bin": {
+    "make-public": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cors",
+    "bypass",
+    "proxy",
+    "api",
+    "access",
+    "security"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NasaHack/make-public.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NasaHack/make-public/issues"
+  },
+  "homepage": "https://github.com/NasaHack/make-public#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
