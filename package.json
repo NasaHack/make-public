@@ -1,6 +1,6 @@
 {
   "name": "make-public",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple tool to bypass CORS restrictions.",
   "bin": {
     "make-public": "dist/index.js"
@@ -22,7 +22,7 @@
     "security"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NasaHack/make-public.git"
