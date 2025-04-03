@@ -88,7 +88,8 @@ export const network = tc<[string], any>(async (API_URL) => {
     } = <{ message: string; data: { proxied_url: string } }>data;
 
     logger.success(message);
-    logger.info(proxied_url);
+    logger.info(`Proxied URL: ${colors.bold(proxied_url).blue.bgYellow}`);
+    logger.appriciation();
   } else {
     const { message } = <{ message: string }>error;
     logger.error(message);
